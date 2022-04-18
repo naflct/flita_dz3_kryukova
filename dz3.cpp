@@ -37,7 +37,7 @@ int main()
             }
         }
     }
-    printf("Количество рёбер: %d", count_r);
+    printf("РљРѕР»РёС‡РµСЃС‚РІРѕ СЂС‘Р±РµСЂ: %d", count_r);
 
     for (i = 0; i < n; i++) 
     {
@@ -53,11 +53,11 @@ int main()
         if (c != 0) 
             count_v++;
     }
-    printf("\nКоличество вершин: %d", count_v);
+    printf("\nРљРѕР»РёС‡РµСЃС‚РІРѕ РІРµСЂС€РёРЅ: %d", count_v);
 
     u = (count_v - 1) * (count_v - 2) / 2;
     if (count_r > u)
-        printf("\n%d > %d\nГраф связный", count_r, u);
+        printf("\n%d > %d\nР“СЂР°С„ СЃРІСЏР·РЅС‹Р№", count_r, u);
     else 
-        printf("\n%d < %d\nГраф не связный", count_r, u);
+        printf("\n%d < %d\nР“СЂР°С„ РЅРµ СЃРІСЏР·РЅС‹Р№", count_r, u);
 }
